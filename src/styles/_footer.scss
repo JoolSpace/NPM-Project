@@ -1,0 +1,18 @@
+.footer {
+  @include flex();
+  position: relative;
+
+  height: 15rem;
+  width: 100%;
+  padding: $p-2;
+
+  background-color: $color-violet--darken;
+  clip-path: polygon(100% 35vh, 100% 15vh, 100% 0, 0 100%);
+  
+  &-navbar {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+ }
+}
+

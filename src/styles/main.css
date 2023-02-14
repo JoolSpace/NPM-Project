@@ -159,4 +159,62 @@ body {
   top: 2rem;
   right: 0;
   z-index: 10;
+}
+
+.navbar {
+  position: absolute;
+  margin-left: 8.5rem;
+}
+.navbar__lists {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar__list {
+  padding: 1.5rem;
+  list-style: none;
+}
+.navbar__link {
+  transition: all 0.3s;
+  padding: 0.5rem 0;
+  text-decoration: overline;
+  color: white;
+  font-size: 12px;
+}
+.navbar__link:hover {
+  color: #ce3192;
+  border-bottom: 1px solid #ce3192;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  height: 15rem;
+  width: 100%;
+  padding: 2rem;
+  background-color: #4d2268;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 15vh 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 0, 15vh 100%);
+  z-index: 10;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 15rem;
+  width: 100%;
+  padding: 2rem;
+  background-color: #2a0b3b;
+  -webkit-clip-path: polygon(100% 35vh, 100% 15vh, 100% 0, 0 100%);
+          clip-path: polygon(100% 35vh, 100% 15vh, 100% 0, 0 100%);
+}
+.footer-navbar {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }/*# sourceMappingURL=main.css.map */
